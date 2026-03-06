@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     ]
     RATE_LIMIT_REQUESTS: int = 10
     RATE_LIMIT_WINDOW: int = 60
-    CORS_ORIGINS: List[str] = ["http://localhost:5173", "http://localhost:3000"]
+    CORS_ORIGINS: str = "http://localhost:3000"
     FRONTEND_URL: str = ""
     UPLOAD_DIR: str = "/tmp/quickshare"
 
